@@ -1,6 +1,19 @@
-# DocsBox
+<p align="center">
+  <img width="295" height="86" alt="logo" src="https://github.com/user-attachments/assets/aff4b86a-f776-4c47-b131-5f509ed78fc7" />
 
-> 轻量级web在线文档管理系统
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.org/package/element-plus">
+    <img src="https://img.shields.io/badge/php-7.0-blue" />
+  </a>
+  <a href="https://github.com/element-plus/element-plus">
+    <img src="https://img.shields.io/badge/MySql-5.7-47c219" />
+  </a>
+
+  <br>
+</p>
+<p align="center">轻量级web在线文档管理系统</p>
 
 ## 项目简介
 
