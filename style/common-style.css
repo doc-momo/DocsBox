@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* === 主题颜色变量定义 === */
+:root {
+  /* 普通模式颜色 */
+  --bg-primary: #fbfbfb;
+  --bg-secondary: #f6f6f6;
+  --text-primary: #303133;
+  --text-secondary: #606266;
+  --text-placeholder: #c0c4cc;
+  --border-color: #dfdfdf;
+  --vditor-placeholder-color: #dfdfdf;
+  --hover-bg: #f5f7fa;
+  --el-fill-color-blank: #fafafa;
+  --success-color: #67c23a;
+  --warning-color: #e6a23c;
+  --danger-color: #f56c6c;
+  --info-color: #909399;
+  --input-text-bg-color: #f8f8f8;
+}
+
+/* 黑暗模式颜色 */
+:root.dark {
+  /* Element Plus 黑暗模式兼容颜色 */
+  --bg-primary: #181818;
+  --bg-secondary: #1c1f22;
+  --text-primary: #fafafa;
+  --text-secondary: #c0c4cc;
+  --text-placeholder: #606266;
+  --border-color: #4b4b4b;
+  --vditor-placeholder-color: #4b4b4b;
+  --hover-bg: #2c2c2c;
+  --el-fill-color-blank: #141414;
+  --success-color: #67c23a;
+  --warning-color: #e6a23c;
+  --danger-color: #f56c6c;
+  --info-color: #909399;
+  --input-text-bg-color: #222222;
+}
+
+:root {
+  /* 主题字体样式样式 */
+  --el-color-primary: #4f7de0 !important;
+  --el-color-success: #67c23a !important;
+  --el-color-warning: #e6a23c !important;
+  --el-color-danger: #f56c6c !important;
+  --el-color-info: #909399 !important;
+  --docsbox-primary-color-1: var(--el-color-primary);
+  --docsbox-primary-color-2: #f2bae8;
+  /* 鼠标悬停颜色 */
+  --el-color-primary-light-1: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 10%) !important;
+  --el-color-primary-light-2: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 20%) !important;
+  --el-color-primary-light-3: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 30%) !important;
+  --el-color-primary-light-4: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 40%) !important;
+  --el-color-primary-light-5: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 50%) !important;
+  --el-color-primary-light-6: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 60%) !important;
+  --el-color-primary-light-7: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 70%) !important;
+  --el-color-primary-light-8: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 80%) !important;
+  --el-color-primary-light-9: color-mix(in srgb, var(--el-color-primary), var(--bg-primary) 90%) !important;
+  --el-color-success-light-1: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 10%) !important;
+  --el-color-success-light-2: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 20%) !important;
+  --el-color-success-light-3: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 30%) !important;
+  --el-color-success-light-4: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 40%) !important;
+  --el-color-success-light-5: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 50%) !important;
+  --el-color-success-light-6: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 60%) !important;
+  --el-color-success-light-7: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 70%) !important;
+  --el-color-success-light-8: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 80%) !important;
+  --el-color-success-light-9: color-mix(in srgb, var(--el-color-success), var(--bg-primary) 90%) !important;
+  --el-color-warning-light-1: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 10%) !important;
+  --el-color-warning-light-2: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 20%) !important;
+  --el-color-warning-light-3: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 30%) !important;
+  --el-color-warning-light-4: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 40%) !important;
+  --el-color-warning-light-5: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 50%) !important;
+  --el-color-warning-light-6: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 60%) !important;
+  --el-color-warning-light-7: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 70%) !important;
+  --el-color-warning-light-8: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 80%) !important;
+  --el-color-warning-light-9: color-mix(in srgb, var(--el-color-warning), var(--bg-primary) 90%) !important;
+  --el-color-danger-light-1: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 10%) !important;
+  --el-color-danger-light-2: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 20%) !important;
+  --el-color-danger-light-3: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 30%) !important;
+  --el-color-danger-light-4: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 40%) !important;
+  --el-color-danger-light-5: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 50%) !important;
+  --el-color-danger-light-6: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 60%) !important;
+  --el-color-danger-light-7: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 70%) !important;
+  --el-color-danger-light-8: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 80%) !important;
+  --el-color-danger-light-9: color-mix(in srgb, var(--el-color-danger), var(--bg-primary) 90%) !important;
+  --el-color-info-light-1: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 10%) !important;
+  --el-color-info-light-2: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 20%) !important;
+  --el-color-info-light-3: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 30%) !important;
+  --el-color-info-light-4: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 40%) !important;
+  --el-color-info-light-5: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 50%) !important;
+  --el-color-info-light-6: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 60%) !important;
+  --el-color-info-light-7: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 70%) !important;
+  --el-color-info-light-8: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 80%) !important;
+  --el-color-info-light-9: color-mix(in srgb, var(--el-color-info), var(--bg-primary) 90%) !important;
+  /* vditor样式 */
+  /* element ui 样式 */
+}
+
+:root .vditor-reset {
+  color: var(--el-text-color-regular);
+}
+
+:root .vditor-reset a {
+  color: var(--el-color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+:root .vditor-reset a:hover {
+  border-bottom: 1px solid var(--el-color-primary);
+}
+
+:root .vditor-reset p code {
+  color: var(--el-color-danger) !important;
+}
+
+:root .vditor-preview {
+  border-left: 0;
+  min-height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--bg-primary);
+}
+
+:root .vditor-reset h1, :root .vditor-reset h2, :root .vditor-reset h3, :root .vditor-reset h4, :root .vditor-reset h5, :root .vditor-reset h6 {
+  border-bottom: 1px solid var(--vditor-placeholder-color) !important;
+  margin: 50px 0 20px 0 !important;
+}
+
+:root .vditor-reset {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+:root .vditor-reset code {
+  font-size: 105%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+:root .vditor-reset code .hljs-meta .hljs-string, :root .vditor-reset code .hljs-regexp, :root .vditor-reset code .hljs-string {
+  color: #cf913f;
+}
+
+:root .vditor-reset code .hljs-emphasis {
+  color: var(--text-primary);
+  font-style: italic;
+}
+
+:root .vditor-reset code:not(.hljs):not(.highlight-chroma) {
+  background-color: var(--bg-secondary);
+}
+
+:root .vditor-reset blockquote {
+  padding: 0.5em 1em;
+  color: var(--text-primary);
+  border-left: 0.25em solid var(--el-color-primary);
+  background-color: var(--bg-secondary);
+  margin: 1em 0;
+}
+
+:root .vditor-reset table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+:root .vditor-reset th,
+:root .vditor-reset td {
+  border: 1px solid var(--vditor-placeholder-color);
+  padding: 6px 13px;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+:root .vditor-reset th {
+  background-color: var(--hover-bg);
+  font-weight: 600;
+}
+
+:root .vditor-reset table tr {
+  background-color: var(--bg-secondary);
+}
+
+:root .vditor-reset table tbody tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+:root .vditor-reset img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root .vditor-img {
+  z-index: 9999;
+}
+
+:root .hljs-built_in, :root .hljs-keyword, :root .hljs-name, :root .hljs-selector-tag, :root .hljs-tag {
+  color: #4f7de0;
+}
+
+:root strong {
+  font-weight: bolder;
+  color: var(--el-color-primary);
+}
+
+:root .el-menu--horizontal.el-menu {
+  border-bottom: 0 !important;
+}
+
+:root .el-input__wrapper, :root .el-select__wrapper, :root .el-textarea__inner, :root .el-input-group__append, :root .el-input-group--prepend .el-input-group__prepend .el-select .el-select__wrapper, :root .el-input-group__prepend {
+  background-color: var(--input-text-bg-color) !important;
+  box-shadow: 0 0 2px var(--border-color) !important;
+}
+
+:root .el-input__wrapper, :root .el-select__wrapper:hover {
+  box-shadow: 0 0 2px var(--border-color) !important;
+}
+
+:root .el-tree {
+  background: none;
+}
+
+/* === 基础样式 === */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+/* === 响应式调整 === */
+@media (max-width: 768px) {
+  :root {
+    /* 移动端可以调整字体大小等 */
+    font-size: 14px;
+  }
+}
