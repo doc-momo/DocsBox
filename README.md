@@ -13,69 +13,69 @@
 
   <br>
 </p>
-<p align="center">轻量级web在线文档管理系统</p>
+<p align="center">Lightweight Web-Based Online Document Management System</p>
 
-## 功能简介
+## Introduction
 
-> DocsBox 是一个轻量级的在线文档管理系统，专注于提供简洁高效的文档编写、组织和展示解决方案。，支持大纲、数学公式、脑图、图表、流程图、甘特图、时序图、五线谱、多媒体、语音阅读、标题锚点、代码高亮及复制、graphviz、PlantUML 渲染，操作非常简单，适合作为个人博客、知识库、技术文档库或在线笔记使用。
+> DocsBox is a lightweight online document management system focused on providing a simple and efficient solution for document writing, organization, and presentation. It supports outlines, mathematical formulas, mind maps, charts, flowcharts, Gantt charts, sequence diagrams, musical staves, multimedia, text-to-speech, heading anchors, code highlighting and copying, Graphviz, and PlantUML rendering. It is very easy to use and is suitable for personal blogs, knowledge bases, technical documentation libraries, or online notes.
 
-## 核心功能
+## Core Features
 
-### 🔍 在线编辑功能
+### 🔍🔍 Online Editing
 
-* 提供所见即所得的 Markdown 编辑器
-* 支持实时预览
-* 无需本地环境，随时随地编辑文档
+*   Provides a WYSIWYG Markdown editor.
+*   Supports real-time preview.
+*   Edit documents anytime, anywhere, no local environment required.
 
-### 📑 多页面文档支持
+### 📑📑 Multi-Page Document Support
 
-* 强大的分类管理系统
-* 文档间便捷的导航和链接
-* 支持复杂的文档结构组织
-* 每个页都支持独立的VI
+*   Powerful category management system.
+*   Easy navigation and linking between documents.
+*   Supports organizing complex document structures.
+*   Each page supports an independent UI.
 
-### 🎨 高度自定义
+### 🎨🎨🎨 High Customizability
 
-* 丰富的主题切换功能
-* 自定义页面布局和样式
-* 灵活的菜单配置
+*   Rich theme switching functionality.
+*   Customizable page layouts and styles.
+*   Flexible menu configuration.
 
-### 🚀 部署简单
+### 🚀🚀🚀 Easy Deployment
 
-* 基于 PHP 后端，环境要求低
-* 只需上传文件即可部署
-* 支持多种 Web 服务器（Apache、Nginx）
+*   PHP backend with low environmental requirements.
+*   Deploy simply by uploading files.
+*   Supports various web servers (Apache, Nginx).
 
-## 应用场景
+## Use Cases
 
-> 自定义首页，首页是什么，它就可以是什么
+> Customize the homepage; it can be whatever you want it to be.
 
-* **个人博客**：优雅展示个人文章和见解
-* **技术文档库**：为项目提供完善的技术文档
-* **知识库**：构建团队或个人知识库
-* **说明书**：作为产品说明书集合
-* **在线笔记**：便捷的笔记记录和管理工具
-* **教程网站**：创建结构化的学习教程
+*   **Personal Blog:** Elegantly present personal articles and insights.
+*   **Technical Documentation:** Provide comprehensive technical documentation for projects.
+*   **Knowledge Base:** Build a team or personal knowledge base.
+*   **Product Manuals:** Serve as a collection of product manuals.
+*   **Online Notes:** Convenient note-taking and management tool.
+*   **Tutorial Website:** Create structured learning tutorials.
 
-## 技术栈
+## Technology Stack
 
-* **前端**：Vue 3 + Vite + Element Plus
-* **编辑器**：Vditor + Ace Editor
-* **后端**：PHP
-* **存储**：文件系统
+*   **Frontend:** Vue 3 + Vite + Element Plus
+*   **Editor:** Vditor + Ace Editor
+*   **Backend:** PHP
+*   **Storage:** File System
 
-## 功能概括
+## Feature Overview
 
-* Markdown 文档的创建、编辑、删除和管理
-* 多级文档分类和组织
-* 文件上传和管理
-* 页面自定义配置
-* 系统设置和主题切换
-* 响应式设计，支持移动端访问
-* 文档搜索功能
+*   Create, edit, delete, and manage Markdown documents.
+*   Multi-level document categorization and organization.
+*   File upload and management.
+*   Customizable page configurations.
+*   System settings and theme switching.
+*   Responsive design, supports mobile access.
+*   Document search functionality.
 
-## 官方网站
+## Official Website
 
-* **网站：** [官网](https://www.docsbox.cn)
-* **技术文档：** [使用文档](https://www.docsbox.cn/docs/6913070c70b05/691307c964554)
+*   **Website:** [Official Site](https://www.docsbox.cn)
+*   **Documentation:** [User Guide](https://www.docsbox.cn/docs/6913070c70b05/691307c964554)
 
